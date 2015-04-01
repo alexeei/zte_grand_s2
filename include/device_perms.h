@@ -19,12 +19,6 @@
 
 #define PROPERTY_PERMS_APPEND \
     { "persist.audio.",   AID_SYSTEM,   0 }, \
-    { "persist.sys.camera.", AID_MEDIA, 0 }, \
-    { "hw.fm.",           AID_FM_RADIO,  0 },
+    { "persist.sys.camera.", AID_MEDIA, 0 },
 
-
-#define PROPERTY_PERMS_APPEND \
-	{ "fm_dl", AID_FM_RADIO, AID_FM_RADIO},
-	
-	
 #endif /* DEVICE_PERMS_H */
